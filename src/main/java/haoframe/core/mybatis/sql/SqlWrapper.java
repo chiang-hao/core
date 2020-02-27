@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.alibaba.druid.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import haoframe.core.mybatis.sql.db_enum.SqlConnector;
 import haoframe.core.mybatis.sql.db_enum.SqlOperators;
