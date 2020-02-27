@@ -13,10 +13,8 @@ queryPageList等基本操作.
 
 1、将定义的数据库实体初始化
 
-2、配置spring
-  spring配置mybatis 时将SqlSessionFactoryBean  替换成	MyBatisSqlSessionFactoryBean
+2、spring配置mybatis 时将SqlSessionFactoryBean  替换成	MyBatisSqlSessionFactoryBean
 
-3、配置mybatis的分页插件
-  chianghao.core.mybatis.plugins.PaginationInterceptor
-4、使用
-	使用者的接口继承BaseMapper方法
+3、配置mybatis的分页插件，将插件指向chianghao.core.mybatis.plugins.PaginationInterceptor
+
+4、使用时将您的mapper接口继承BaseMapper接口
