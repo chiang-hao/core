@@ -7,7 +7,8 @@ update,updateByCode
 delete,deleteByCode
 queryOne,
 queryList
-queryPageList等基本操作
+queryPageList等基本操作.
+目前只支持mysql数据库，对于其他数据的支持还在持续进行中
 
 
 1、将定义的数据库实体初始化
@@ -17,8 +18,5 @@ queryPageList等基本操作
 
 3、配置mybatis的分页插件
   chianghao.core.mybatis.plugins.PaginationInterceptor
-4、注意
-     目前只支持mysql数据库
-
-5、使用
+4、使用
 	使用者的接口继承BaseMapper方法
