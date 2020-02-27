@@ -11,7 +11,7 @@ queryPageList等基本操作.
 目前只支持mysql数据库，对于其他数据的支持还在持续进行中
 
 
-1、将定义的数据库实体初始化
+1、将定义的数据库实体初始化.chianghao.core.db.manage.DatabaseTool.init(包1，包2)
 
 2、spring配置mybatis 时将SqlSessionFactoryBean  替换成	MyBatisSqlSessionFactoryBean
 
