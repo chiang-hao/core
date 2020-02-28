@@ -1,7 +1,7 @@
 # mybatis 增强
 
 概述：
-此增强支持将curd注入到mybatis的mapper中。使用者定义的mapper无需添加对数据库的表的基本写操作。增强插件的BaseMapper提供的
+此增强支持将增删改查等基本方法注入到mybatis的mapper中。使用者定义的mapper无需再编写基本的数据库操作sql再xml,只需要继承BaseMapper。增强插件的BaseMapper提供的
 insert,insertBatch,
 update,updateByCode
 delete,deleteByCode
